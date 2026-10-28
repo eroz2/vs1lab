@@ -132,9 +132,35 @@ a {
 
 
 /* ### TODO ### Styles for Tagging component */
+.tagging fieldset {
+  border: 1px solid #cdcdcd;
+  padding: 16px;
+}
 
-/* ... your code here ... */
+.tagging label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
 
+.tagging input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #666;
+}
+
+#latitude,
+#longitude {
+  background-color: #efefef;
+  border: 1px solid #cdcdcd;
+}
+
+.tagging input[type="submit"] {
+  margin-top: 16px;
+  background-color: #efefef;
+  border: 1px solid #cdcdcd;
+}
 
 /* ### TODO ### Styles for Discovery component */
 

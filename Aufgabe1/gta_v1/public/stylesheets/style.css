@@ -48,7 +48,6 @@ a {
 
 /* ... your code here ... */
 
-
 /* Grid styles (no changes required) */
 
 .row {
@@ -107,7 +106,22 @@ a {
 }
 
 
-/* ### TODO ### Styles for Header Component */
+/* ### TODO|DONE ### Styles for Header Component */
+.header {
+  font-size: 120%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E0E0E0;
+  padding: 2% 4%;
+  border: 2px solid #D0D0D0;
+}
+
+.header__image {
+	height: 100%;
+	width: calc(100%/24);
+}
 
 /* ... your code here ... */
 

@@ -119,8 +119,8 @@ a {
 }
 
 .header__image {
-	height: 100%;
-	width: calc(100%/24);
+  height: 100%;
+  width: calc(100%/24);
 }
 
 /* ... your code here ... */
@@ -136,10 +136,55 @@ a {
 /* ... your code here ... */
 
 
-/* ### TODO ### Styles for Discovery component */
+/* Styles for Discovery component */
 
-/* ... your code here ... */
+.discovery__search fieldset {
+  padding: 20px;
+  border: 1px solid lightgray;
+}
 
+.discovery__search label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.discovery__search input[type="search"] {
+  display: block;
+  width: 240px;
+  max-width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.discovery__search button {
+  display: block;
+  width: 240px;
+  max-width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.discovery__results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.discovery__results li {
+  background-color: #EEEEEE;
+  border: 1px solid #D0D0D0;
+  color: #00BFFF;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 20px;
+  overflow-wrap: anywhere;
+}
+
+.discovery__hashtag {
+  display: block;
+}
 
 /* ### TODO ### Styles for Footer Component */
 

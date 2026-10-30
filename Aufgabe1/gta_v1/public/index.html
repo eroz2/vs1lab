@@ -55,13 +55,14 @@
                 <fieldset>
                     <legend>Search</legend>
 
-                    <label for="keywords">Search Term or keywords</label> 
-                    <input id="keywords" name="keywords" type="text" placeholder="e.g. Hochschule" />
+                    <label for="discoverySearchterm">Search term or keywords:</label>
+                    <input type="search" id="discoverySearchterm" name="searchterm" placeholder="e.g. #sight">
 
-                    <input type="submit" value="Search" />
+                    <input type="hidden" id="discoveryLatitude" name="latitude" value="49.01379">
 
-                    <input type="hidden" id="discovery_latitude" name="latitude" />
-                    <input type="hidden" id="discovery_longitude" name="longitude" />
+                    <input type="hidden" id="discoveryLongitude" name="longitude" value="8.404435">
+
+                    <button type="submit">Search</button>
                 </fieldset>
             </form>
             <!-- ############### VS1Lab 1a Form 2 End -->
@@ -69,8 +70,14 @@
             <div class="discovery__wrapper">
                 <div class="discovery__taglist">
                     <ul class="discovery__results" id="discoveryResults">
-                        <li>Castle (49.01379, 8.404435) #sight</li>
-                        <li>IWI (49.01379, 8.390071) #edu</li>
+                        <li>
+                            Castle (49.01379, 8.404435)
+                            <span class="discovery__hashtag">#sight</span>
+                        </li>
+                        <li>
+                            IWI (49.01379, 8.390071)
+                            <span class="discovery__hashtag">#edu</span>
+                        </li>
                     </ul>
                 </div>
 

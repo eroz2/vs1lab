@@ -113,9 +113,9 @@ a {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  background-color: #E0E0E0;
+  background-color: var(--background-color);
   padding: 2% 4%;
-  border: 2px solid #D0D0D0;
+  border-color: var(--border-color);
 }
 
 .header__image {
@@ -133,7 +133,7 @@ a {
 
 /* ### TODO ### Styles for Tagging component */
 .tagging fieldset {
-  border: 1px solid #D0D0D0;
+  border: 1px solid var(--border-color);
   padding: 16px;
 }
 
@@ -147,19 +147,19 @@ a {
   display: block;
   width: 100%;
   padding: 10px;
-  border: 1px solid #666;
+  border: 1px solid var(--gray-color);
 }
 
 #latitude,
 #longitude {
-  background-color: #E0E0E0;
-  border: 1px solid #D0D0D0;
+  background-color: var(--background-color);
+  border-color: var(--border-color);
 }
 
 .tagging input[type="submit"] {
   margin-top: 16px;
-  background-color: #E0E0E0;
-  border: 1px solid #D0D0D0;
+  background-color: var(--background-color);
+  border-color: var(--border-color);
 }
 
 /* ### TODO ### Styles for Discovery component */

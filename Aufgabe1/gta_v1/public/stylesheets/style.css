@@ -168,6 +168,10 @@ a {
 
 /* Styles for Discovery component */
 
+.discovery__search {
+  margin-bottom: 2rem;
+}
+
 .discovery__search fieldset {
   padding: 20px;
   border: 1px solid lightgray;
@@ -180,8 +184,8 @@ a {
 
 .discovery__search input[type="search"] {
   display: block;
-  width: 240px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 240px;
   padding: 10px;
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -189,8 +193,8 @@ a {
 
 .discovery__search button {
   display: block;
-  width: 240px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 240px;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -216,6 +220,12 @@ a {
   display: block;
 }
 
+.discovery__map img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ### TODO ### Styles for Footer Component */
 .footer {
   display: flex;
@@ -227,6 +237,54 @@ a {
 /* ... your code here ... */
 
 
-/* ### TODO ### Media Queries */
+/* Tablet */
+@media screen and (max-width: 850px) {
+  .row {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
-/* ... your code here ... */
+  [class*="col-"] {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+
+  .header__image {
+    width: 2rem;
+  }
+
+  .discovery__search input[type="search"],
+  .discovery__search button {
+    max-width: 100%;
+  }
+}
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .header__image {
+    width: 3rem;
+    height: auto;
+  }
+
+  .header__title {
+    font-size: 1.5rem;
+  }
+
+  .main {
+    padding: 1rem;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+}

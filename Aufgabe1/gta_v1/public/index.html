@@ -35,10 +35,10 @@
                     <input id="longitude" name="longitude" type="text" value="8.404435" readonly />
 
                     <label for="name">Name</label>
-                    <input id="name" name="name" type="text" placeholder="e.g. Castle" required maxlength="10" pattern="[A-Za-z]{1,10}" />
+                    <input id="name" name="name" type="text" placeholder="e.g. Castle" required maxlength="10" pattern="\p{L}{1,10}" />
 
                     <label for="hashtag">Hashtag</label>
-                    <input id="hashtag" name="hashtag" type="text" placeholder="e.g. #cas" pattern="#[A-Za-z]{1,10}" />
+                    <input id="hashtag" name="hashtag" type="text" placeholder="e.g. #cas" pattern="#\p{L}{1,10}" />
 
                     <input type="submit" value="Add Tag" />
                 </fieldset>

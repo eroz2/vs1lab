@@ -142,13 +142,12 @@ a {
 
 
 /* ### TODO ### Styles for Footer Component */
-/* TODO: Not aligned to Bottom, argh */
 .footer {
   display: flex;
-  justify-content: left;
-  background-color: #E0E0E0;
-  padding: 2% 4%;
-  border: 2px solid #D0D0D0;
+  align-items: left;
+  background-color: var(--background-color);
+  padding: 2%;
+  border: 2px solid var(--border-color);
 }
 
 /* ... your code here ... */

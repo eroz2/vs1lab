@@ -124,10 +124,15 @@ a {
 
 /* ... your code here ... */
 
+/* MAIN */
 
-/* ### TODO ### Styles for Main Component */
+.main {
+  padding: 3rem;
+}
 
-/* ... your code here ... */
+.main h2 {
+  margin-bottom: 1.5rem;
+}
 
 
 /* ### TODO ### Styles for Tagging component */

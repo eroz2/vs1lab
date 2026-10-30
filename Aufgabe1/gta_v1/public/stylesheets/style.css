@@ -133,7 +133,7 @@ a {
 
 /* ### TODO ### Styles for Tagging component */
 .tagging fieldset {
-  border: 1px solid #cdcdcd;
+  border: 1px solid #D0D0D0;
   padding: 16px;
 }
 
@@ -152,14 +152,14 @@ a {
 
 #latitude,
 #longitude {
-  background-color: #efefef;
-  border: 1px solid #cdcdcd;
+  background-color: #E0E0E0;
+  border: 1px solid #D0D0D0;
 }
 
 .tagging input[type="submit"] {
   margin-top: 16px;
-  background-color: #efefef;
-  border: 1px solid #cdcdcd;
+  background-color: #E0E0E0;
+  border: 1px solid #D0D0D0;
 }
 
 /* ### TODO ### Styles for Discovery component */

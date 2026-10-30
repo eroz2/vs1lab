@@ -20,7 +20,7 @@
         </nav>
     </header>
 
-    <main class="main">
+    <main class="main row">
         <section class="main__tagging tagging col-4">
             <h2>Tagging</h2>
 
@@ -28,18 +28,18 @@
             <form id="tag-form" action="/tagging" method="post">
                 <fieldset>
                     <legend>Add a new Geotag</legend>
-                    <label for="latitude">Latitude</label> 
+                    <label for="latitude">Latitude</label>
                     <input id="latitude" name="latitude" type="text" placeholder="e.g. 39.298347" />
-                    
-                    <label for="longitude">Longitude</label> 
+
+                    <label for="longitude">Longitude</label>
                     <input id="longitude" name="longitude" type="text" placeholder="e.g. 23.19238" />
-                    
-                    <label for="name">Name</label> 
+
+                    <label for="name">Name</label>
                     <input id="name" name="name" type="text" placeholder="e.g. Castle" />
-                    
-                    <label for="hashtag">Hashtag</label> 
+
+                    <label for="hashtag">Hashtag</label>
                     <input id="hashtag" name="hashtag" type="text" placeholder="e.g. #cas" />
-                    
+
                     <input type="submit" value="Add Tag" />
                 </fieldset>
             </form>

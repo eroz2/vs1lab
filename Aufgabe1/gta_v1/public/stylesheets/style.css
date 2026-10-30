@@ -46,7 +46,13 @@ a {
 
 /* ### TODO ### Styles for other HTML elements */
 
-/* ... your code here ... */
+input[type="submit"],
+button {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  padding: 10px;
+}
 
 /* Grid styles (no changes required) */
 
@@ -147,7 +153,7 @@ a {
   margin-bottom: 6px;
 }
 
-.tagging input {
+.tagging input:not([type="submit"]) {
   display: block;
   width: 100%;
   padding: 10px;
@@ -162,12 +168,9 @@ a {
 
 .tagging input[type="submit"] {
   margin-top: 16px;
-  background-color: var(--background-color);
-  border-color: var(--border-color);
 }
 
 /* Styles for Discovery component */
-
 .discovery__search {
   margin-bottom: 2rem;
 }
@@ -188,14 +191,6 @@ a {
   max-width: 240px;
   padding: 10px;
   margin-bottom: 20px;
-  box-sizing: border-box;
-}
-
-.discovery__search button {
-  display: block;
-  width: 100%;
-  max-width: 240px;
-  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -258,7 +253,8 @@ a {
   }
 
   .discovery__search input[type="search"],
-  .discovery__search button {
+  input[type="submit"],
+  button {
     max-width: 100%;
   }
 }

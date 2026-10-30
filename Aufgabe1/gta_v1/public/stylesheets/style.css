@@ -187,6 +187,12 @@ a {
 }
 
 /* ### TODO ### Styles for Footer Component */
+.footer {
+  display: flex;
+  background-color: var(--background-color);
+  padding: 2%;
+  border: 2px solid var(--border-color);
+}
 
 /* ... your code here ... */
 

@@ -131,9 +131,35 @@ a {
 
 
 /* ### TODO ### Styles for Tagging component */
+.tagging fieldset {
+  border: 1px solid var(--border-color);
+  padding: 16px;
+}
 
-/* ... your code here ... */
+.tagging label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
 
+.tagging input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--gray-color);
+}
+
+#latitude,
+#longitude {
+  background-color: var(--background-color);
+  border-color: var(--border-color);
+}
+
+.tagging input[type="submit"] {
+  margin-top: 16px;
+  background-color: var(--background-color);
+  border-color: var(--border-color);
+}
 
 /* Styles for Discovery component */
 

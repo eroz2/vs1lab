@@ -29,16 +29,16 @@
                 <fieldset>
                     <legend>Add a new Geotag</legend>
                     <label for="latitude">Latitude</label>
-                    <input id="latitude" name="latitude" type="text" placeholder="e.g. 39.298347" />
+                    <input id="latitude" name="latitude" type="text" value="49.01379" readonly />
 
                     <label for="longitude">Longitude</label>
-                    <input id="longitude" name="longitude" type="text" placeholder="e.g. 23.19238" />
+                    <input id="longitude" name="longitude" type="text" value="8.404435" readonly />
 
                     <label for="name">Name</label>
-                    <input id="name" name="name" type="text" placeholder="e.g. Castle" />
+                    <input id="name" name="name" type="text" placeholder="e.g. Castle" required maxlength="10" pattern="\p{L}{1,10}" />
 
                     <label for="hashtag">Hashtag</label>
-                    <input id="hashtag" name="hashtag" type="text" placeholder="e.g. #cas" />
+                    <input id="hashtag" name="hashtag" type="text" placeholder="e.g. #cas" pattern="#\p{L}{1,10}" />
 
                     <input type="submit" value="Add Tag" />
                 </fieldset>
